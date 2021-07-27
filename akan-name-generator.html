@@ -2,6 +2,7 @@
 <html>
     <head>
       <title> Akan Name Generator</title>
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <h1>Akan Name Generator</h1>
@@ -13,17 +14,38 @@
               day of the week they were born.Here are Ghanaian day names.
           </p>   
         <h2>Male</h2>  
-         <ul>
-            <li>Sunday : </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul> 
+          <ul>
+            <li>Sunday : Kwasi</li>
+            <li>Monday : Kwadwo </li>
+            <li>Tuesday :Kwabena </li>
+            <li>Wednesday : Kwaku</li>
+            <li>Thursday : Yaw</li>
+            <li>Friday : Kofi</li>
+            <li>Saturday : Kwame</li>
+          </ul> 
         <h2>Female</h2>
-
+          <ul>
+            <li>Sunday : Akosua</li>
+            <li>Monday : Adwoa </li>
+            <li>Tuesday : Abenaa</li>
+            <li>Wednesday :Akua </li>
+            <li>Thursday : Yaa </li>
+            <li>Friday : Afua </li>
+            <li>Saturday : Ama</li>
+          </ul> 
+        <form id="Form" onSubmit="return false">
+            DATE<input type="number" name="day" id="date" min="1" max="30" required><br>
+            MONTH<input type="number" name="Month of birth" id="month" min="1" max="12" required><br>
+            YEAR<input type="number" name="Year of birth" id="year" min="1980" max="2024" required><br>
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="male">Male 
+            <button class="primary btn" onclick="Calculator ()"> 
+                   Submit
+            </button> 
+        </form>
+        <h3 id="alert"></h3>
+        <h3 id="alert2"></h3>
+        <script src="scripts.js"></script>     
 
         
     </body>
