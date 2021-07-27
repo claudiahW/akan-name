@@ -58,3 +58,20 @@ var Calculator = function() {
                         "Congratulations! Your Akan name is  " +
                         akanMale[weekDay] +
                         ("  .You were born on a  " + daysOfTheWeek[weekDay]));
+                    } else if (weekDay === 6 && gender === "male") {
+                        return (document.getElementById("alert").innerHTML =
+                            "Congratulations! Your Akan name is  " +
+                            akanMale[weekDay] +
+                            ("  .You were born on a  " + daysOfTheWeek[weekDay]));
+                        }
+                    
+                        if (weekDay === 0 && gender === "female") {
+                        return (document.getElementById("alert").innerHTML =
+                            "Congratulations! Your Akan name is  " +
+                            akanFemale[weekDay] +
+                            ("  .You were born on a  " + daysOfTheWeek[weekDay]));
+                        } else if (weekDay === 1 && gender === "female") {
+                        return (document.getElementById("alert").innerHTML =
+                            "Congratulations! Your Akan name is  " +
+                            akanFemale[weekDay] +
+                            ("  .You were born on a  " + daysOfTheWeek[weekDay]));
