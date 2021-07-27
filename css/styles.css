@@ -7,13 +7,14 @@ div {
 #gender { 
     display: flex; 
     text-align: center;
-    margin-left: 470px;
+    margin-left: 400px;
 }
 #gender h2{
     color: #397754;
 }
-#form{
+#Form{
     text-align: center;
+    margin-top: 50px;
 }
 h1{
     text-align: center;
@@ -25,4 +26,7 @@ body{
 img {
     text-align: center;
     margin-left: 470px;
+}
+h4 {
+    text-align: right;
 }
