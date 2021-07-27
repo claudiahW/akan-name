@@ -1,3 +1,7 @@
 #africa{ 
-    display: flex;      
+    display: flex;       
+}
+div {
+    border: 2px dotted red;
+    
 }
