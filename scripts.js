@@ -28,3 +28,18 @@ var Calculator = function() {
             var akanFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
         
             var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            if (weekDay === 0 && gender === "male") {
+                return (document.getElementById("alert").innerHTML =
+                    "Congratulations! Your Akan name is  " +
+                    akanMale[weekDay] +
+                    ("  .You were born on a  " + daysOfTheWeek[weekDay]));
+                } else if (weekDay === 1 && gender === "male") {
+                return (document.getElementById("alert").innerHTML =
+                    "Congratulations! Your Akan name is  " +
+                    akanMale[weekDay] +
+                    ("  .You were born on a  " + daysOfTheWeek[weekDay]));
+                } else if (weekDay === 2 && gender === "male") {
+                return (document.getElementById("alert").innerHTML =
+                    "Congratulations! Your Akan name is  " +
+                    akanMale[weekDay] +
+                    ("  .You were born on a  " + daysOfTheWeek[weekDay]));
