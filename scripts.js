@@ -90,3 +90,8 @@ var Calculator = function() {
                                     "Congratulations! Your Akan name is  " +
                                     akanFemale[weekDay] +
                                     ("  .You were born on a  " + daysOfTheWeek[weekDay]));
+                                } else if (weekDay === 5 && gender === "female") {
+                                    return (document.getElementById("alert").innerHTML =
+                                        "Congratulations! Your Akan name is  " +
+                                        akanFemale[weekDay] +
+                                        ("  .You were born on a  " + daysOfTheWeek[weekDay]));
