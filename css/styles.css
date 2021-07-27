@@ -2,6 +2,17 @@
     display: flex;       
 }
 div {
-    border: 2px dotted red;
-    
+    border: 2px dotted red; 
+}
+#gender { 
+    display: flex; 
+    text-align: center;
+    margin-left: 400px;
+}
+#form{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #397754;
 }
