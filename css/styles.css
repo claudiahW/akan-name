@@ -1,9 +1,7 @@
 #africa{ 
     display: flex;       
 }
-div {
-    border: 2px dotted red; 
-}
+
 #gender { 
     display: flex; 
     text-align: center;
