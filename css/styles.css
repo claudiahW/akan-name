@@ -10,7 +10,11 @@
 #gender h2{
     color: #397754;
 }
+.genderB{
+    justify-content: flex;
+}
 #Form{
+    justify-content: flex;
     text-align: center;
     margin-top: 50px;
 }
@@ -19,7 +23,8 @@ h1{
     color: #397754;
 } 
 body{
-    background-color: rgb(225, 209, 226)
+    background-image: linear-gradient(to right, #6699cc , #ff3c38);
+
 }
 img {
     text-align: center;
@@ -27,4 +32,7 @@ img {
 }
 h4 {
     text-align: right;
+}
+.paragraph{
+    border: 2px solid black;
 }

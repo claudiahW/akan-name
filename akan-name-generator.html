@@ -5,11 +5,7 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Akan Name Generator</h1>
-        <div id="africa">
-            <img src="./images/Africa.jpg" height="350px" width="300px">  
-        
-         </div>
+        <h1>Find Out Your Akan Name Here!</h1>
          <div class="paragraph">
             <p> Welcome to my Akan Name Generator.All we need is your birthday 
                 and you will be able to see the day of the week you were born.
@@ -45,13 +41,22 @@
                         <li>Saturday : Ama</li>
                     </ul> 
           </div>
+          <br>
+          <br>
+          <br>
+         </div>
           <div class="form"> 
             <form id="Form" onSubmit="return false">
                 DATE<input type="number" name="day" id="date" min="1" max="30" required><br>
                 MONTH<input type="number" name="Month of birth" id="month" min="1" max="12" required><br>
-                YEAR<input type="number" name="Year of birth" id="year" min="1980" max="2024" required><br>
+                YEAR<input type="number" name="Year of birth" id="year" min="1980" max="2024" required><br><br>
+
+                <div class ="genderB">
                 <input type="radio" name="gender" value="female">Female
                 <input type="radio" name="gender" value="male">Male 
+                </div>
+                <br>
+                <br>
                 <button class="primary btn" onclick="Calculator ()"> 
                        Submit
                 </button> 
